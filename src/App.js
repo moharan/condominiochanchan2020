@@ -79,13 +79,13 @@ export default class App extends React.Component {
                 src={facebook} width='23' height='23' alt='facebook' /></a>
               <a href='https://www.instagram.com/condominiochanchan/' target='blanck' class='iconos'>
                 <img src={instagram} width='23' height='23' alt='instagram' /></a>
-              <a href='#link' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
+              <a href='https://api.whatsapp.com/send?phone=56994695362' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
             </Form>
           </Navbar.Collapse>
         </Navbar>
         {report}
         <footer>
-          <p>footer</p>
+          <p>Promoción de Temporada 2020</p>
         </footer>
       </div>
     )
