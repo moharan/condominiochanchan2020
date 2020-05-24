@@ -2,6 +2,7 @@ import React from 'react'
 import { Navbar, Nav, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from './assets/img/logo.png'
+import fixedButton from './assets/img/consultas.png'
 import ubicacion from './assets/img/ubicacion.png'
 import facebook from './assets/img/facebook.png'
 import instagram from './assets/img/instagram.png'
@@ -60,6 +61,7 @@ export default class App extends React.Component {
     }
     return (
       <div className='App'>
+        <a className='fixed-button' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButton} width='127' height='146' alt='consultas' /></a>
         <Navbar className='navbar' expand='lg'>
           <Navbar.Brand onClick={this.handleSectionHome}>
             <img className='brand' alt='logotipo' src={logo} />
@@ -79,7 +81,7 @@ export default class App extends React.Component {
                 src={facebook} width='23' height='23' alt='facebook' /></a>
               <a href='https://www.instagram.com/condominiochanchan/' target='blanck' class='iconos'>
                 <img src={instagram} width='23' height='23' alt='instagram' /></a>
-              <a href='https://api.whatsapp.com/send?phone=56994695362' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
+              <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
             </Form>
           </Navbar.Collapse>
         </Navbar>

@@ -38,6 +38,15 @@ body {
   border: none;
 }
 
+.fixed-button {
+  width: 127px;
+  height: 146px;
+  z-index: 99;
+  position: fixed;
+  top: 30vh;
+  left: 0;
+}
+
 .brand {
   width: 140px;
 }
