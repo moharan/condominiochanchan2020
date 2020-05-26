@@ -38,13 +38,22 @@ body {
   border: none;
 }
 
-.fixed-button {
+.fixed-button-desktop {
+  display: block;
   width: 127px;
   height: 146px;
   z-index: 99;
   position: fixed;
   top: 30vh;
   left: 0;
+}
+
+.fixed-button-mobile {
+  display: none;
+}
+
+.fixed-call-mobile {
+  display: none;
 }
 
 .brand {
@@ -65,3 +74,32 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .fixed-button-desktop {
+    display: none;
+  }
+  
+  .fixed-button-mobile {
+    display: block;
+    width: 55px;
+    height: 45px;
+    z-index: 99;
+    position: fixed;
+    top: 22vh;
+    left: 2%;
+  }
+
+  .fixed-call-mobile {
+    display: block;
+    width: 34px;
+    height: 34px;
+    z-index: 99;
+    position: fixed;
+    top: 30vh;
+    left: 2%;
+  }
+
+}
+
+

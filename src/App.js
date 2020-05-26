@@ -3,6 +3,8 @@ import { Navbar, Nav, Form } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from './assets/img/logo.png'
 import fixedButton from './assets/img/consultas.png'
+import fixedButtonMobile from './assets/img/consultas_small.png'
+import fixedCallMobile from './assets/img/llamadas_small.png'
 import ubicacion from './assets/img/ubicacion.png'
 import facebook from './assets/img/facebook.png'
 import instagram from './assets/img/instagram.png'
@@ -61,7 +63,9 @@ export default class App extends React.Component {
     }
     return (
       <div className='App'>
-        <a className='fixed-button' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButton} width='127' height='146' alt='consultas' /></a>
+        <a className='fixed-button-desktop' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButton} width='127' height='146' alt='consultas' /></a>
+        <a className='fixed-button-mobile' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButtonMobile} width='55' height='45' alt='consultas' /></a>
+        <a className='fixed-call-mobile' href='tel:56954005083'><img src={fixedCallMobile} width='34' height='34' alt='llamadas' /></a>
         <Navbar className='navbar' expand='lg'>
           <Navbar.Brand onClick={this.handleSectionHome}>
             <img className='brand' alt='logotipo' src={logo} />
