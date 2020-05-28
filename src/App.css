@@ -2,6 +2,7 @@
   --main-color: #303131;
   --second-color: #58666c;
   --third-color: #ffffff;
+  --main-space: 2vh;
   /* 
   --fourth-color: #29a6dd;
   --fifth-color: #f5f5f5;
@@ -16,7 +17,9 @@
 /* Parche */
 .navbar-light .navbar-nav .nav-link {
   color: var(--third-color) !important;
-  margin: 0 20px;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
 }
 
 .form-inline {
@@ -44,7 +47,7 @@ body {
   height: 146px;
   z-index: 99;
   position: fixed;
-  top: 30vh;
+  top: 15vh;
   left: 0;
 }
 
@@ -61,7 +64,7 @@ body {
 }
 
 .iconos {
-  margin: 0 15px;
+  margin: 0 8px;
 }
 
 footer {
@@ -69,10 +72,22 @@ footer {
   border: 1px solid var(--third-color); 
   color: var(--third-color); 
   display: flex;
-  height: 75px;
+  height: 50px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/* video */
+.video-section {
+  width: 100%;
+  min-height: auto;
+  max-height: 96vh;
+  margin: var(--main-space) auto;
+}
+
+.video {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -86,7 +101,7 @@ footer {
     height: 45px;
     z-index: 99;
     position: fixed;
-    top: 22vh;
+    bottom: 30vh;
     left: 2%;
   }
 
@@ -96,7 +111,7 @@ footer {
     height: 34px;
     z-index: 99;
     position: fixed;
-    top: 30vh;
+    bottom: 20vh;
     left: 2%;
   }
 
