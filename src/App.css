@@ -1,17 +1,20 @@
 :root {
   --main-color: #303131;
   --second-color: #58666c;
-  --third-color: #ffffff;
+  --third-color: #cfdad8;
+  --fourth-color: #60c0c9;
+  --fifth-color: #194571;
+  --sixth-color: #a0b2a7;
+  --seventh-color: #e7d9c9;
+  --eighth-color: #9e8081;
+  --ninth-color: #766785;
+  --tenth-color: #c27167;
+  --eleven-color: #6c3959; 
+  --twelve-color: #abe39f; 
+  --thirteen-color: #78a254; 
+  --fourteen-color: #9f948b; 
+  --fifteen-color: #7f8b8b; 
   --main-space: 2vh;
-  /* 
-  --fourth-color: #29a6dd;
-  --fifth-color: #f5f5f5;
-  --sixth-color: #000;
-  --seventh-color: #f6ab3b;
-  --eighth-color: #a17c52;
-  --ninth-color: #fff;
-  --tenth-color: #b0e0e6; 
-  */
 }
 
 /* Parche */
@@ -81,13 +84,63 @@ footer {
 /* video */
 .video-section {
   width: 100%;
-  min-height: auto;
   max-height: 96vh;
   margin: var(--main-space) auto;
 }
 
 .video {
   width: 100%;
+}
+
+/* precios */
+.price-section {
+  width: 100%;
+  height: 70vh;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  background: var(--third-color);
+  padding: 5vh 10vw;
+}
+
+.price-title {
+  background: var(--second-color);
+  color: var(--third-color);
+  width: calc(100% / 5);
+  display: flex;
+  line-height: 18px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  height: 5vh;
+}
+
+.price-element {
+  width: calc(100% / 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.price-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.active {
+  background: var(--thirteen-color);
+  color: var(--third-color);
+}
+
+.last-active {
+  border-bottom-right-radius: 25px;
+}
+
+.text-conditions {
+  margin-top: 5vh;
+  text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
@@ -101,7 +154,7 @@ footer {
     height: 45px;
     z-index: 99;
     position: fixed;
-    bottom: 30vh;
+    bottom: 35vh;
     left: 2%;
   }
 
@@ -111,10 +164,27 @@ footer {
     height: 34px;
     z-index: 99;
     position: fixed;
-    bottom: 20vh;
+    bottom: 25vh;
     left: 2%;
   }
 
+  .price-title, .price-element {
+    height: 45px;
+  }
+
+  .price-section {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .price-section {
+    font-size: 11px;
+  }
+
+  .price-title, .price-element {
+    height: 40px;
+  }
 }
 
 
