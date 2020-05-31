@@ -206,6 +206,30 @@ footer {
   text-shadow: 1px 1px var(--second-color);
 }
 
+/* section Cabañas */
+.service-section {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  display: flex;
+  flex-direction: inherit;
+  flex-flow: wrap;
+  text-align: center;
+  background: var(--second-color);
+  color: var(--seventh-color);
+  padding: 5vh 10vw;
+}
+
+.contenedor-servicios {
+  width: 25%;
+  margin: 15px 0;
+}
+
+.titulo-servicios {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   footer {
     flex-direction: column-reverse;
@@ -247,10 +271,16 @@ footer {
   .distancias-div {
     background-size: cover;
     background-position-x: 20%;
+    padding: 15px;
   }
 
   .dis01, .dis02, .dis03 {
     width: 40%;
+  }
+
+  .contenedor-servicios {
+    width: 50%;
+    font-size: 16px;
   }
 }
 
@@ -261,6 +291,10 @@ footer {
 
   .price-title, .price-element {
     height: 40px;
+  }
+
+  .contenedor-servicios {
+    font-size: 14px;
   }
 }
 
