@@ -187,8 +187,6 @@ footer {
 .mixestilo01 {
   color: var(--third-color);
   text-shadow: 1px 1px var(--main-color);
-  font-size: 18px;
-  padding-top: 18px;
 }
 
 .contact-email {
@@ -202,7 +200,7 @@ footer {
 }
 
 .solocolor02 {
-  color: var(--tenth-color);
+  color: var(--fourth-color);
   text-shadow: 1px 1px var(--second-color);
 }
 
@@ -228,6 +226,12 @@ footer {
 .titulo-servicios {
   font-weight: 600;
   margin-top: 10px;
+}
+
+.text-carrousel {
+  color: var(--third-color);
+  text-shadow: 1px 1px var(--main-color);
+  display: block;
 }
 
 @media only screen and (max-width: 768px) {
@@ -282,6 +286,19 @@ footer {
     width: 50%;
     font-size: 16px;
   }
+
+  .text-carrousel {
+    display: none;
+  }
+
+  .mixestilo01 {
+    font-size: 16px;
+  }
+
+  .solocolor02 {
+    font-size: 14px;
+  }
+
 }
 
 @media only screen and (max-width: 480px) {

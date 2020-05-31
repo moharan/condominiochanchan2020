@@ -1,5 +1,10 @@
 import React from 'react'
+import { Carousel } from 'react-bootstrap'
 import './App.css'
+import slide01 from './assets/cabañas-slide/cabanas01.jpg'
+import slide02 from './assets/cabañas-slide/cabanas02.jpg'
+import slide03 from './assets/cabañas-slide/cabanas03.jpg'
+import slide04 from './assets/cabañas-slide/cabanas04.jpg'
 import exteriores from './assets/servicios/exteriores.png'
 import actividades from './assets/servicios/actividades.png'
 import cabanas from './assets/servicios/cabanas.png'
@@ -13,6 +18,48 @@ class SectionCabanas extends React.Component {
   render () {
     return (
       <React.Fragment>
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className='d-block w-100'
+              src={slide01}
+              alt='slide01'
+            />
+            <Carousel.Caption>
+              <h4 className='text-carrousel'>El Lago Lanalhue, uno de los principales destinos turísticos de la Región del Bio Bio, se encuentra ubicado entre la Cordillera de Nahuelbuta y el mar.</h4>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-100'
+              src={slide02}
+              alt='slide02'
+            />
+            <Carousel.Caption>
+              <h4>Sus aguas son aptas para el baño y para la práctica de deportes náuticos.</h4>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-100'
+              src={slide03}
+              alt='slide03'
+            />
+            <Carousel.Caption>
+              <h4>Su entorno natural está dominado por bosques nativos y plantaciones y por una rica avifauna que habita en el lugar.</h4>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-100'
+              src={slide04}
+              alt='slide04'
+            />
+            <Carousel.Caption>
+              <h4>En los alrededores hay distintos panoramas para realizar como visita al Parque Nacional Nahuelbuta y a la famosa Piedra del Águila, Monumento Natural de Contulmo, Museo Mapuche, entre otros; o participar de las numerosas actividades y ferias costumbristas que se desarrollan en las Comunas de Contulmo y Cañete.</h4>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
         <div className='service-section'>
           <div className='contenedor-servicios'>
             <img src={exteriores} alt='exteriores' />
