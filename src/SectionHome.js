@@ -7,9 +7,17 @@ import slide03 from './assets/home/03.jpg'
 import slide04 from './assets/home/04.jpg'
 import video from './assets/video/chanchan2019.m4v'
 import webpay from './assets/tarifas/webpay.png'
+import distancias01 from './assets/distancias/distancias_01.png'
+import distancias02 from './assets/distancias/distancias_02.png'
+import distancias03 from './assets/distancias/distancias_03.png'
 
 class SectionHome extends React.Component {
   render () {
+    const maps = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.1561919392266!2d-73.2619368!3d-37.9267814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24bf8e6e006f2d95!2sCondomino+chan+chan!5e0!3m2!1ses-419!2scl!4v1497905114066" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen />'
+
+    function Iframe (props) {
+      return (<div dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : '' }} />)
+    }
     return (
       <React.Fragment>
         {/* slider */}
@@ -116,6 +124,16 @@ class SectionHome extends React.Component {
             <p><b>Condiciones de Pago:</b> Pago en efectivo, transferencia o tarjetas bancarias de débito/crédito durante el check-in.</p>
             <p><b>Política de Cancelación:</b> Entre 30 y 10 días antes de la llegada tiene una penalidad del 50% de la reserva y menos de 9 días el 100% de la reserva. Promociones no tienen devolución de reserva.</p>
           </div>
+        </div>
+        <div className='lago-div'>
+          <p className='mixestilo01'>Las Cabañas Condominio Chan Chan, se encuentran ubicadas en el sur de Chile, a orillas de las templadas aguas del Lago Lanalhue, en medio de un entorno natural de gran belleza, el cual es el escenario perfecto para que pases un tiempo de descanso, tranquilidad y recreación junto a tu familia o amigos.</p>
+          <p className='solocolor02'>Lago Lanalhue, Contulmo, Región del Bio Bio</p>
+        </div>
+        <div className='maps-div'><Iframe iframe={maps} /></div>
+        <div className='distancias-div'>
+          <div className='distancias01'><img className='dis01' src={distancias01} alt='distancias01' /></div>
+          <div className='distancias02'><img className='dis02' src={distancias02} alt='distancias01' /></div>
+          <div className='distancias03'><img className='dis03' src={distancias03} alt='distancias01' /></div>
         </div>
       </React.Fragment>
     )
