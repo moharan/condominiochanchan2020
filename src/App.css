@@ -75,13 +75,13 @@ body {
 
 footer {
   background-color: var(--second-color);
-  border: 1px solid var(--third-color); 
   color: var(--third-color); 
   display: flex;
-  height: 50px;
-  flex-direction: column;
+  flex-direction: inherit;
+  height: 100px;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 /* video */
@@ -191,12 +191,27 @@ footer {
   padding-top: 18px;
 }
 
+.contact-email {
+  color: var(--sixth-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-email:hover {
+  color: var(--thirteen-color);
+}
+
 .solocolor02 {
   color: var(--tenth-color);
   text-shadow: 1px 1px var(--second-color);
 }
 
 @media only screen and (max-width: 768px) {
+  footer {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
   .fixed-button-desktop {
     display: none;
   }

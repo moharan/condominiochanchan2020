@@ -61,7 +61,7 @@ class SectionHome extends React.Component {
             className='video'
             controls
             autoPlay
-            // src={video}
+            src={video}
           />
         </div>
         <div className='price-section'>
