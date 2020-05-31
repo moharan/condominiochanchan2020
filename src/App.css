@@ -95,7 +95,7 @@ footer {
 /* precios */
 .price-section {
   width: 100%;
-  height: 70vh;
+  height: auto;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -141,6 +141,11 @@ footer {
 .text-conditions {
   margin-top: 5vh;
   text-align: left;
+}
+
+.webpay-link {
+  width: 50%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
