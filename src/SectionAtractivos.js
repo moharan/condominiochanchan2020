@@ -8,12 +8,16 @@ import slide03 from './assets/turistico-slide/03-turisticos.jpg'
 import slide04 from './assets/turistico-slide/04-turisticos.jpg'
 import atractivos01 from './assets/distancias/atractivos01.png'
 import atractivos02 from './assets/distancias/atractivos02.png'
-import link01 from './assets/link/01_cabanas.jpg'
-import link02 from './assets/link/02_cabanas.jpg'
-import link03 from './assets/link/03_cabanas.jpg'
-import link04 from './assets/link/04_cabanas.jpg'
-import link05 from './assets/link/05_cabanas.jpg'
-import link06 from './assets/link/06_cabanas.jpg'
+import link01 from './assets/link/01atractivos.jpg'
+import link02 from './assets/link/02atractivos.jpg'
+import link03 from './assets/link/03atractivos.jpg'
+import link04 from './assets/link/04atractivos.jpg'
+import link05 from './assets/link/05atractivos.jpg'
+import link06 from './assets/link/06atractivos.jpg'
+import link07 from './assets/link/07atractivos.jpg'
+import link08 from './assets/link/08atractivos.jpg'
+import link09 from './assets/link/09atractivos.jpg'
+import link10 from './assets/link/10atractivos.jpg'
 
 class SectionAtractivos extends React.Component {
   render () {
@@ -63,7 +67,7 @@ class SectionAtractivos extends React.Component {
         </Carousel>
         <div className='titulo-secciones04'>Atractivos</div>
         <div className='distancias-div'>
-        <div className='distancias02'><img className='atractivo02' src={atractivos02} alt='atractivos02' /></div>
+          <div className='distancias02'><img className='atractivo02' src={atractivos02} alt='atractivos02' /></div>
           <div className='distancias02'><img className='atractivo01' src={atractivos01} alt='atractivos01' /></div>
         </div>
         <div className='links'>
@@ -73,6 +77,10 @@ class SectionAtractivos extends React.Component {
           <a href='#link'><img src={link04} alt='El Castaño' className='contain-link' /></a>
           <a href='#link'><img src={link05} alt='Exterior Cabañas' className='contain-link' /></a>
           <a href='#link'><img src={link06} alt='Hot Tubs' className='contain-link' /></a>
+          <a href='#link'><img src={link07} alt='Exterior Cabañas' className='contain-link' /></a>
+          <a href='#link'><img src={link08} alt='Hot Tubs' className='contain-link' /></a>
+          <a href='#link'><img src={link09} alt='Exterior Cabañas' className='contain-link' /></a>
+          <a href='#link'><img src={link10} alt='Hot Tubs' className='contain-link' /></a>
         </div>
       </React.Fragment>
     )
