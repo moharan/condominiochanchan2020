@@ -5,6 +5,12 @@ import slide01 from './assets/cabañas-slide/cabanas01.jpg'
 import slide02 from './assets/cabañas-slide/cabanas02.jpg'
 import slide03 from './assets/cabañas-slide/cabanas03.jpg'
 import slide04 from './assets/cabañas-slide/cabanas04.jpg'
+import link01 from './assets/link/01_cabanas.jpg'
+import link02 from './assets/link/02_cabanas.jpg'
+import link03 from './assets/link/03_cabanas.jpg'
+import link04 from './assets/link/04_cabanas.jpg'
+import link05 from './assets/link/05_cabanas.jpg'
+import link06 from './assets/link/06_cabanas.jpg'
 import exteriores from './assets/servicios/exteriores.png'
 import actividades from './assets/servicios/actividades.png'
 import cabanas from './assets/servicios/cabanas.png'
@@ -123,6 +129,14 @@ class SectionCabanas extends React.Component {
             <p className='titulo-servicios'>Tienda</p>
             <p>- Venta Souvenirs Artesanía Local</p>
           </div>
+        </div>
+        <div className='links'>
+          <a href='#link'><img src={link01} alt='El Avellano' className='contain-link' /></a>
+          <a href='#link'><img src={link02} alt='Los Encinos' className='contain-link' /></a>
+          <a href='#link'><img src={link03} alt='Los Cipreses' className='contain-link' /></a>
+          <a href='#link'><img src={link04} alt='El Castaño' className='contain-link' /></a>
+          <a href='#link'><img src={link05} alt='Exterior Cabañas' className='contain-link' /></a>
+          <a href='#link'><img src={link06} alt='Hot Tubs' className='contain-link' /></a>
         </div>
       </React.Fragment>
     )

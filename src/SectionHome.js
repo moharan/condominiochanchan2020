@@ -133,7 +133,6 @@ class SectionHome extends React.Component {
         <div className='links'>
           <a href='#link'><img src={link01} alt='Cabañas' className='contain-link' /></a>
           <a href='#link'><img src={link02} alt='Atractivos Turisticos' className='contain-link' /></a>
-          <a href='#link'><div className='link-atractivos' /></a>
         </div>
         <div className='titulo-secciones03'>Mapa</div>
         <div className='maps-div'>

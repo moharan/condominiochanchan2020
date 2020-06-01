@@ -33,6 +33,7 @@ export default class App extends React.Component {
   }
   handleSectionCabanas () {
     this.setState({ sectionActive: 2 })
+    console.log('aqui trabajo')
   }
   handleSectionAtractivos () {
     this.setState({ sectionActive: 3 })
@@ -80,12 +81,12 @@ export default class App extends React.Component {
               <Nav.Link href='#link'>Descarga Reglamento</Nav.Link>
             </Nav>
             <Form inline>
-              <a href='#link' class='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
-              <a href='https://www.facebook.com/condominiochanchan/' target='blanck' class='iconos'><img
+              <a href='#link' className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
+              <a href='https://www.facebook.com/condominiochanchan/' target='blanck' className='iconos'><img
                 src={facebook} width='23' height='23' alt='facebook' /></a>
-              <a href='https://www.instagram.com/condominiochanchan/' target='blanck' class='iconos'>
+              <a href='https://www.instagram.com/condominiochanchan/' target='blanck' className='iconos'>
                 <img src={instagram} width='23' height='23' alt='instagram' /></a>
-              <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
+              <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' className='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
             </Form>
           </Navbar.Collapse>
         </Navbar>
@@ -94,7 +95,7 @@ export default class App extends React.Component {
           <div>- Promoción de Temporada 2020 </div>
           <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'> - contacto@condominiochanchan.com </a>
           <div> +56 9 5400 5083</div>
-          <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' class='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
+          <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' className='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
         </footer>
       </div>
     )

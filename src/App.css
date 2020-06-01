@@ -272,14 +272,13 @@ footer {
 
 .links {
   display: flex;
-  width: 100%;
-  height: auto;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
 .contain-link {
   display: block;
-  max-width: 100%;
+  width: 50vw;
   height: auto;
 }
 
@@ -295,6 +294,11 @@ footer {
 
   .links {
     flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .contain-link {
+    width: 100%;
   }
 
   footer {
