@@ -140,9 +140,9 @@ class SectionHome extends React.Component {
         </div>
         <div className='titulo-secciones04'>Distancia</div>
         <div className='distancias-div'>
-          <div className='distancias01'><img className='dis01' src={distancias01} alt='distancias01' /></div>
+          <div><img className='dis01' src={distancias01} alt='distancias01' /></div>
           <div className='distancias02'><img className='dis02' src={distancias02} alt='distancias01' /></div>
-          <div className='distancias03'><img className='dis03' src={distancias03} alt='distancias01' /></div>
+          <div><img className='dis03' src={distancias03} alt='distancias01' /></div>
         </div>
       </React.Fragment>
     )

@@ -282,6 +282,10 @@ footer {
   height: auto;
 }
 
+.atractivo01, .atractivo02 {
+  margin: 50px;
+}
+
 @media only screen and (max-width: 768px) {
   .titulo-secciones, .titulo-secciones02, .titulo-secciones03, .titulo-secciones04 {
     border-bottom-right-radius: 8px;
@@ -344,7 +348,7 @@ footer {
     padding: 15px;
   }
 
-  .dis01, .dis02, .dis03 {
+  .dis01, .dis02, .dis03, .atractivo01, .atractivo02 {
     width: 40%;
   }
 
