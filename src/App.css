@@ -270,7 +270,33 @@ footer {
   background: var(--third-color);
 }
 
+.links {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+}
+
+.contain-link {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
+  .titulo-secciones, .titulo-secciones02, .titulo-secciones03, .titulo-secciones04 {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-top: 5px;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
   footer {
     flex-direction: column-reverse;
     height: auto;

@@ -5,6 +5,8 @@ import slide01 from './assets/home/01.jpg'
 import slide02 from './assets/home/02.jpg'
 import slide03 from './assets/home/03.jpg'
 import slide04 from './assets/home/04.jpg'
+import link01 from './assets/link/00_cabanas.jpg'
+import link02 from './assets/link/00_turisticos.jpg'
 import video from './assets/video/chanchan2019.m4v'
 import webpay from './assets/tarifas/webpay.png'
 import distancias01 from './assets/distancias/distancias_01.png'
@@ -127,6 +129,11 @@ class SectionHome extends React.Component {
         <div className='lago-div'>
           <h4 className='mixestilo01'>Las Cabañas Condominio Chan Chan, se encuentran ubicadas en el sur de Chile, a orillas de las templadas aguas del Lago Lanalhue, en medio de un entorno natural de gran belleza, el cual es el escenario perfecto para que pases un tiempo de descanso, tranquilidad y recreación junto a tu familia o amigos.</h4>
           <h5 className='solocolor02'>Lago Lanalhue, Contulmo, Región del Bio Bio</h5>
+        </div>
+        <div className='links'>
+          <a href='#link'><img src={link01} alt='Cabañas' className='contain-link' /></a>
+          <a href='#link'><img src={link02} alt='Atractivos Turisticos' className='contain-link' /></a>
+          <a href='#link'><div className='link-atractivos' /></a>
         </div>
         <div className='titulo-secciones03'>Mapa</div>
         <div className='maps-div'>
