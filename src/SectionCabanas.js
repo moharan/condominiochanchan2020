@@ -42,7 +42,7 @@ class SectionCabanas extends React.Component {
               alt='slide02'
             />
             <Carousel.Caption>
-              <h4>Sus aguas son aptas para el baño y para la práctica de deportes náuticos.</h4>
+              <h4 className='text-carrousel'>Sus aguas son aptas para el baño y para la práctica de deportes náuticos.</h4>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -52,7 +52,7 @@ class SectionCabanas extends React.Component {
               alt='slide03'
             />
             <Carousel.Caption>
-              <h4>Su entorno natural está dominado por bosques nativos y plantaciones y por una rica avifauna que habita en el lugar.</h4>
+              <h4 className='text-carrousel'>Su entorno natural está dominado por bosques nativos y plantaciones y por una rica avifauna que habita en el lugar.</h4>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -62,7 +62,7 @@ class SectionCabanas extends React.Component {
               alt='slide04'
             />
             <Carousel.Caption>
-              <h4>En los alrededores hay distintos panoramas para realizar como visita al Parque Nacional Nahuelbuta y a la famosa Piedra del Águila, Monumento Natural de Contulmo, Museo Mapuche, entre otros; o participar de las numerosas actividades y ferias costumbristas que se desarrollan en las Comunas de Contulmo y Cañete.</h4>
+              <h4 className='text-carrousel'>En los alrededores hay distintos panoramas para realizar como visita al Parque Nacional Nahuelbuta y a la famosa Piedra del Águila, Monumento Natural de Contulmo, Museo Mapuche, entre otros; o participar de las numerosas actividades y ferias costumbristas que se desarrollan en las Comunas de Contulmo y Cañete.</h4>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
@@ -109,7 +109,7 @@ class SectionCabanas extends React.Component {
             <img src={limpieza} alt='servicios de limpieza' />
             <p className='titulo-servicios'>Servicios de limpieza</p>
             <p>- Lavandería (gratuito)</p>
-            <p>- Aseo Gratuito (estadías > 5 días)s</p>
+            <p>- Aseo Gratuito (estadías > 5 días)</p>
           </div>
           <div className='contenedor-servicios'>
             <img src={mascotas} alt='mascotas' />

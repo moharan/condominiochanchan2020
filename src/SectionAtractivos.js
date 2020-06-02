@@ -41,7 +41,7 @@ class SectionAtractivos extends React.Component {
               alt='slide02'
             />
             <Carousel.Caption>
-              <h4>Se pueden realizar excursiones a distintas reservas naturales, destacándose el Parque Nacional Nahuelbuta.</h4>
+              <h4 className='text-carrousel'>Se pueden realizar excursiones a distintas reservas naturales, destacándose el Parque Nacional Nahuelbuta.</h4>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -51,7 +51,7 @@ class SectionAtractivos extends React.Component {
               alt='slide03'
             />
             <Carousel.Caption>
-              <h4>También hay panoramas culturales, como visitas al Museo Mapuche, Molino Grollmus, entre otros.</h4>
+              <h4 className='text-carrousel'>También hay panoramas culturales, como visitas al Museo Mapuche, Molino Grollmus, entre otros.</h4>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -61,7 +61,7 @@ class SectionAtractivos extends React.Component {
               alt='slide04'
             />
             <Carousel.Caption>
-              <h4>Por último puedes disfrutar de la gastronomía local y de los productos típicos de la zona.</h4>
+              <h4 className='text-carrousel'>Por último puedes disfrutar de la gastronomía local y de los productos típicos de la zona.</h4>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>

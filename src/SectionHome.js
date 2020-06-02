@@ -15,7 +15,7 @@ import distancias03 from './assets/distancias/distancias_03.png'
 
 class SectionHome extends React.Component {
   render () {
-    const maps = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3147.1561919392266!2d-73.2619368!3d-37.9267814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24bf8e6e006f2d95!2sCondomino+chan+chan!5e0!3m2!1ses-419!2scl!4v1497905114066" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen />'
+    const maps = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50354.4135498394!2d-73.29468522218798!3d-37.92690627973194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966a6fe99b74bf51%3A0x24bf8e6e006f2d95!2sCaba%C3%B1as%20Condominio%20Chan%20Chan!5e0!3m2!1ses-419!2scl!4v1591068090030!5m2!1ses-419!2scl" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>'
 
     function Iframe (props) {
       return (<div dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : '' }} />)
