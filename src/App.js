@@ -90,6 +90,9 @@ export default class App extends React.Component {
             </Form>
           </Navbar.Collapse>
         </Navbar>
+        <div className='extra-publicidad'>
+          <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email-publicidad'> Producto del [COVID-19] nuestras cabañas se encuentran temporalmente cerradas + Info: contacto@condominiochanchan.com</a>
+        </div>
         {report}
         <footer>
           <div>- Promoción de Temporada 2020 - 2021 </div>

@@ -47,6 +47,19 @@ body {
   border: none;
 }
 
+.extra-publicidad {
+  width: 100%;
+  height: 30px;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background: var(--thirteen-color);
+  color: var(--third-color);
+}
+
 .fixed-button-desktop {
   display: block;
   width: 127px;
@@ -207,6 +220,17 @@ footer {
   color: var(--thirteen-color);
 }
 
+.contact-email-publicidad {
+  color: var(--third-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contact-email-publicidad:hover {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
 .solocolor02 {
   color: var(--fourth-color);
   text-shadow: 1px 1px var(--second-color);
@@ -273,6 +297,8 @@ footer {
 
 .links {
   display: flex;
+  width: 100%;
+  height: auto;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -288,6 +314,11 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .extra-publicidad {
+    font-size: 10px;
+    height: auto;
+  }
+
   .titulo-secciones, .titulo-secciones02, .titulo-secciones03, .titulo-secciones04 {
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
