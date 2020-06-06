@@ -172,7 +172,7 @@ footer {
   cursor: pointer;
 }
 
-.lago-div {
+.lago-div, .faq-div {
   background-image: url(./assets/home-lago/2.jpg);
   background-size: cover;
   background-position: center;
@@ -180,6 +180,12 @@ footer {
   height: 100vh;
   padding: 10vh 5vw;
 }
+
+.faq-div {
+  background-image: url(./assets/faq/faq.jpg);
+}
+
+
 
 .distancias-div {
   background-image: url(./assets/distancias/distancias.jpg);
@@ -236,6 +242,17 @@ footer {
   text-shadow: 1px 1px var(--second-color);
 }
 
+.faq-section {
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  display: flex;
+  flex-direction: inherit;
+  background: var(--fourteen-color);
+  color: var(--second-color);
+  padding: 5vh 10vw;
+}
+
 /* section Cabañas */
 .service-section {
   width: 100%;
@@ -252,6 +269,11 @@ footer {
 
 .contenedor-servicios {
   width: 25%;
+  margin: 15px 5px;
+}
+
+.contenedor-faq {
+  width: 50%;
   margin: 15px 0;
 }
 
@@ -314,6 +336,16 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+  .faq-section {
+    font-size: 14px;
+    display: block;
+  }
+
+  .contenedor-faq {
+    width: 100%;
+    margin: 15px 0;
+  }
+
   .extra-publicidad {
     font-size: 10px;
     height: auto;
