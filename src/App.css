@@ -49,15 +49,15 @@ body {
 
 .extra-publicidad {
   width: 100%;
-  height: 30px;
+  height: 40px;
   font-size: 12px;
   padding: 5px;
   display: flex;
   justify-content: center;
-  align-items: center;
   font-weight: 600;
   background: var(--thirteen-color);
   color: var(--third-color);
+  cursor: pointer;
 }
 
 .fixed-button-desktop {
@@ -229,6 +229,7 @@ footer {
 .contact-email-publicidad {
   color: var(--third-color);
   cursor: pointer;
+  line-height: 24px;
   text-decoration: none;
 }
 
@@ -269,7 +270,6 @@ footer {
 
 .contenedor-servicios {
   width: 25%;
-  border: 1px solid red;
   padding: 15px 2%;
 }
 
@@ -327,7 +327,6 @@ footer {
 }
 
 .contain-link {
-  border: 1px solid red;
   display: block;
   width: 50%;
   height: auto;
@@ -337,7 +336,70 @@ footer {
   margin: 50px;
 }
 
+/* pop up information */
+.popup {
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.popup_inner {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: 10%;
+  margin: 5%;
+  padding: 5%;
+  overflow: scroll;
+  text-align: center;
+  max-height: 600px;
+  background-color: var(--thirteen-color);
+  color: var(--third-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.text-up-info {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.button-close-info {
+  font-size: 18px;
+  line-height: 12px;
+  margin: 10px;
+  font-weight: 600;
+  font-family: Verdana, sans-serif;
+  color: var(--third-color);
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 @media only screen and (max-width: 768px) {
+  .form-inline {
+    margin: 10px;
+  }
+
+  .popup_inner {
+    font-size: 12px;
+    left: 2%;
+    right: 2%;
+    top: 2%;
+    bottom: 2%;
+  }
+
   .faq-section {
     font-size: 14px;
     display: block;
@@ -350,6 +412,7 @@ footer {
 
   .extra-publicidad {
     font-size: 10px;
+    line-height: 20px;
     height: auto;
   }
 

@@ -16,6 +16,30 @@ import SectionPromociones from './SectionPromociones'
 import SectionFaq from './SectionFaq'
 import './App.css'
 
+class Info extends React.Component {
+  render () {
+    return (
+      <div className='popup'>
+        <div className='popup_inner'>
+          <div className='text-up-info'>
+            <div className='button-close-info' onClick={this.props.closePopup}>x</div>
+            <h5>Estimados Visitantes:</h5>
+            <p>Informamos que nuestras cabañas se encuentran temporalmente cerradas desde mediados de marzo producto de las medidas sanitarias implementadas por las autoridades, así como una decisión de contribuir al control de la propagación del coronavirus.</p>
+            <p>Esperamos que la difícil situación que enfrenta el país mejore para que en el menor tiempo posible puedas venir a disfrutar de nuestras instalaciones, del hermoso Lago Lanalhue y sus alrededores.</p>
+            <p>Mientras tanto seguiremos trabajando en las manutenciones de las cabañas y jardines, así como en la implementación de protocolos de prevención y sanitización para una reapertura segura.</p>
+            <p>Por el momento, solo realizaremos reservas desde el 01 de septiembre de 2020.</p>
+            <p>Para mayor información escríbenos a cualquiera de nuestros contactos.</p>
+            <p>Saludos Cordiales</p>
+            <p>Administración</p>
+            <h6>Cabañas Condominio Chan Chan</h6>
+            <img className='brand' alt='logotipo' src={logo} />
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
 export default class App extends React.Component {
   constructor (props) {
     super(props)
@@ -25,7 +49,8 @@ export default class App extends React.Component {
     this.handleSectionPromociones = this.handleSectionPromociones.bind(this)
     this.handleSectionFaq = this.handleSectionFaq.bind(this)
     this.state = {
-      sectionActive: 1
+      sectionActive: 1,
+      showPopup: true
     }
   }
   handleSectionHome () {
@@ -33,7 +58,6 @@ export default class App extends React.Component {
   }
   handleSectionCabanas () {
     this.setState({ sectionActive: 2 })
-    console.log('aqui trabajo')
   }
   handleSectionAtractivos () {
     this.setState({ sectionActive: 3 })
@@ -43,6 +67,11 @@ export default class App extends React.Component {
   }
   handleSectionFaq () {
     this.setState({ sectionActive: 5 })
+  }
+  togglePopup () {
+    this.setState({
+      showPopup: !this.state.showPopup
+    })
   }
 
   render () {
@@ -62,8 +91,15 @@ export default class App extends React.Component {
     } else {
       console.log('nO DEBERIA nunca llegar aqui!!')
     }
+    // pop-up information
+    const informationActive = this.state.showPopup
+    let lightboxInformation
+    if (informationActive === true) {
+      lightboxInformation = <Info closePopup={this.togglePopup.bind(this)} />
+    }
     return (
       <div className='App'>
+        {lightboxInformation}
         <a className='fixed-button-desktop' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButton} width='127' height='146' alt='consultas' /></a>
         <a className='fixed-button-mobile' href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan'><img src={fixedButtonMobile} width='55' height='45' alt='consultas' /></a>
         <a className='fixed-call-mobile' href='tel:56954005083'><img src={fixedCallMobile} width='34' height='34' alt='llamadas' /></a>
@@ -90,8 +126,8 @@ export default class App extends React.Component {
             </Form>
           </Navbar.Collapse>
         </Navbar>
-        <div className='extra-publicidad'>
-          <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email-publicidad'> Producto del [COVID-19] nuestras cabañas se encuentran temporalmente cerradas + Info: contacto@condominiochanchan.com</a>
+        <div className='extra-publicidad' onClick={this.togglePopup.bind(this)}>
+          <p className='contact-email-publicidad'> Producto del [COVID-19] nuestras cabañas se encuentran temporalmente cerradas + Info: contacto@condominiochanchan.com</p>
         </div>
         {report}
         <footer>
