@@ -78,7 +78,7 @@ export default class App extends React.Component {
               <Nav.Link onClick={this.handleSectionAtractivos}>Atractivos Turisticos</Nav.Link>
               <Nav.Link onClick={this.handleSectionPromociones}>Promociones</Nav.Link>
               <Nav.Link onClick={this.handleSectionFaq}>FAQ</Nav.Link>
-              <Nav.Link href='#link'>Descarga Reglamento</Nav.Link>
+              <Nav.Link href='http://condominiochanchan.com/reglamento2020-21.pdf' target='_blank' rel='noopener noreferrer'>Descarga Reglamento</Nav.Link>
             </Nav>
             <Form inline>
               <a href='#link' className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
@@ -95,9 +95,9 @@ export default class App extends React.Component {
         </div>
         {report}
         <footer>
-          <div>- Promoción de Temporada 2020 - 2021 </div>
-          <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'>- contacto@condominiochanchan.com</a>
-          <div> &nbsp; +56 9 5400 5083</div>
+          <div>Promoción de Temporada 2020 - 2021 </div>
+          <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'>contacto@condominiochanchan.com</a>
+          <div> +56 9 5400 5083</div>
           <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' className='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
         </footer>
       </div>

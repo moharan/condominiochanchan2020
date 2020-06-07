@@ -269,7 +269,8 @@ footer {
 
 .contenedor-servicios {
   width: 25%;
-  margin: 15px 5px;
+  border: 1px solid red;
+  padding: 15px 2%;
 }
 
 .contenedor-faq {
@@ -318,7 +319,7 @@ footer {
 }
 
 .links {
-  display: flex;
+  display: inline-flex;
   width: 100%;
   height: auto;
   flex-wrap: wrap;
@@ -326,8 +327,9 @@ footer {
 }
 
 .contain-link {
+  border: 1px solid red;
   display: block;
-  width: 50vw;
+  width: 50%;
   height: auto;
 }
 
@@ -412,8 +414,12 @@ footer {
     padding: 15px;
   }
 
-  .dis01, .dis02, .dis03, .atractivo01, .atractivo02 {
+  .dis01, .dis02, .dis03, .atractivo01{
     width: 40%;
+  }
+
+  .atractivo02 {
+    width: 60%;
   }
 
   .contenedor-servicios {

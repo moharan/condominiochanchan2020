@@ -17,16 +17,16 @@ class SectionPromociones extends React.Component {
     return (
       <React.Fragment>
         <div className='links'>
-          <a href='#link'><img src={link01} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link02} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link03} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link04} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link05} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link06} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link07} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link08} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link09} alt='promociones' className='contain-link' /></a>
-          <a href='#link'><img src={link10} alt='promociones' className='contain-link' /></a>
+          <div alt='promociones' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link05} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link06} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link07} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link08} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link09} width='100%' height='100%' alt='' /></div>
+          <div alt='promociones' className='contain-link'><img src={link10} width='100%' height='100%' alt='' /></div>
         </div>
       </React.Fragment>
     )

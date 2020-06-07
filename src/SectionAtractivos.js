@@ -71,16 +71,16 @@ class SectionAtractivos extends React.Component {
           <div className='distancias02'><img className='atractivo01' src={atractivos01} alt='atractivos01' /></div>
         </div>
         <div className='links'>
-          <a href='#link'><img src={link01} alt='El Avellano' className='contain-link' /></a>
-          <a href='#link'><img src={link02} alt='Los Encinos' className='contain-link' /></a>
-          <a href='#link'><img src={link03} alt='Los Cipreses' className='contain-link' /></a>
-          <a href='#link'><img src={link04} alt='El Castaño' className='contain-link' /></a>
-          <a href='#link'><img src={link05} alt='Exterior Cabañas' className='contain-link' /></a>
-          <a href='#link'><img src={link06} alt='Hot Tubs' className='contain-link' /></a>
-          <a href='#link'><img src={link07} alt='Exterior Cabañas' className='contain-link' /></a>
-          <a href='#link'><img src={link08} alt='Hot Tubs' className='contain-link' /></a>
-          <a href='#link'><img src={link09} alt='Exterior Cabañas' className='contain-link' /></a>
-          <a href='#link'><img src={link10} alt='Hot Tubs' className='contain-link' /></a>
+          <div alt='molino-grollmus' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
+          <div alt='nahuelbuta' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
+          <div alt='monumento-contulmo' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
+          <div alt='salto-rayen' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
+          <div alt='tuneles' className='contain-link'><img src={link05} width='100%' height='100%' alt='' /></div>
+          <div alt='museo-mapuche' className='contain-link'><img src={link06} width='100%' height='100%' alt='' /></div>
+          <div alt='casas-patrimoniales' className='contain-link'><img src={link07} width='100%' height='100%' alt='' /></div>
+          <div alt='dungunwe' className='contain-link'><img src={link08} width='100%' height='100%' alt='' /></div>
+          <div alt='lago-lanalhue' className='contain-link'><img src={link09} width='100%' height='100%' alt='' /></div>
+          <div alt='santa-elena' className='contain-link'><img src={link10} width='100%' height='100%' alt='' /></div>
         </div>
       </React.Fragment>
     )

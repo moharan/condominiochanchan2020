@@ -131,12 +131,12 @@ class SectionCabanas extends React.Component {
           </div>
         </div>
         <div className='links'>
-          <a href='#link'><img src={link01} alt='El Avellano' className='contain-link' /></a>
-          <a href='#link'><img src={link02} alt='Los Encinos' className='contain-link' /></a>
-          <a href='#link'><img src={link03} alt='Los Cipreses' className='contain-link' /></a>
-          <a href='#link'><img src={link04} alt='El Castaño' className='contain-link' /></a>
-          <a href='#link'><img src={link05} alt='Exterior Cabañas' className='contain-link' /></a>
-          <a href='#link'><img src={link06} alt='Hot Tubs' className='contain-link' /></a>
+          <div alt='El Avellano' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
+          <div alt='Los Encinos' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
+          <div alt='Los Cipreses' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
+          <div alt='El Castaño' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
+          <div alt='Exterior Cabañas' className='contain-link'><img src={link05} width='100%' height='100%' alt='' /></div>
+          <div alt='Hot Tubs' className='contain-link'><img src={link06} width='100%' height='100%' alt='' /></div>
         </div>
       </React.Fragment>
     )
