@@ -2,16 +2,16 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import './../App.css'
 
-import link01 from './../assets/lightbox/hottubs/hottubs01.jpg'
-import link02 from './../assets/lightbox/hottubs/hottubs02.jpg'
-import link03 from './../assets/lightbox/hottubs/hottubs03.jpg'
-import link04 from './../assets/lightbox/hottubs/hottubs04.jpg'
-import link05 from './../assets/lightbox/hottubs/hottubs05.jpg'
-import link06 from './../assets/lightbox/hottubs/hottubs06.jpg'
-import link07 from './../assets/lightbox/hottubs/hottubs07.jpg'
-import link08 from './../assets/lightbox/hottubs/hottubs08.jpg'
-import link09 from './../assets/lightbox/hottubs/hottubs09.jpg'
-import link10 from './../assets/lightbox/hottubs/hottubs10.jpg'
+import link01 from './../assets/lightbox/contulmo/01_contulmo.jpg'
+import link02 from './../assets/lightbox/contulmo/02_contulmo.jpg'
+import link03 from './../assets/lightbox/contulmo/03_contulmo.jpg'
+import link04 from './../assets/lightbox/contulmo/04_contulmo.jpg'
+import link05 from './../assets/lightbox/contulmo/05_contulmo.jpg'
+import link06 from './../assets/lightbox/contulmo/06_contulmo.jpg'
+import link07 from './../assets/lightbox/contulmo/07_contulmo.jpg'
+import link08 from './../assets/lightbox/contulmo/08_contulmo.jpg'
+import link09 from './../assets/lightbox/contulmo/09_contulmo.jpg'
+import link10 from './../assets/lightbox/contulmo/10_contulmo.jpg'
 
 class PopUp extends React.Component {
   render () {
@@ -20,80 +20,81 @@ class PopUp extends React.Component {
         <div className='popup_inner-img'>
           <div className='text-up-info'>
             <div className='button-close-info-img' onClick={this.props.closePopup}>x</div>
-            <div className='info-lightbox'>
-              <h3>Hot tubs</h3>
-              <p>Nuestras cabañas cuentan con un Hot Tubs o Tinaja de Agua Caliente fabricada en madera de ciprés, con capacidad de hasta 6 personas, ubicada en un entorno de mucha vegetación con una espectacular vista al lago Lanalhue. Además de disfrutar del paisaje, las tinajas proveen de numerosos beneficios para la salud.</p>
-              <b>Se arrienda con reserva de al menos 24 hrs.</b>
+            <div className='info-lightbox-atractivos'>
+              <h3>Monumento Natural Contulmo</h3>
+              <p>Ubicado a 6 Km de Contulmo en la ruta que une Contulmo - Purén.</p>
+              <p>Tiene una extensión de 82 hectáreas de conservación, administrado por CONAF, con una longitud de 3.200 metros. Posee un tiempo estimado de recorrido de 2 horas. Actualmente alberga 146 especies vegetales  de los cuales 120 son nativos.</p>
+              <p>Existen 26 variedades de helechos, se han determinado 3 comunidades de Bosques, refugiando a 51 especies de fauna entre los cuales se encuentran, zorros, pumas, monitos del monte, pudúes, chucaos, etc.</p>
             </div>
             <Carousel>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link01}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link02}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link03}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link04}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link05}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link06}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link07}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link08}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link09}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link10}
-                  alt='hot tubs'
+                  alt='contulmo'
                 />
               </Carousel.Item>
             </Carousel>

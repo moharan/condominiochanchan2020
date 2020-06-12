@@ -347,7 +347,7 @@ footer {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.7);
 }
 
 .popup_inner, .popup_inner-img {
@@ -400,20 +400,24 @@ footer {
   color: var(--second-color);
 }
 
-.info-lightbox {
+.info-lightbox, .info-lightbox-atractivos {
   position: fixed;
   background: var(--eleven-color);
   color: var(--third-color);
   z-index: 1;
   font-size: 12px;
   padding: 10px 20px;
-  top: 10%;
+  top: 15%;
   right: 10px;
   border-radius: 5px;
 }
 
+.info-lightbox-atractivos {
+  background: var(--fifth-color);
+}
+
 @media only screen and (max-width: 768px) {
-  .info-lightbox {
+  .info-lightbox, .info-lightbox-atractivos {
     display: none;
   }
 

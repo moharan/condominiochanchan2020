@@ -2,16 +2,14 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import './../App.css'
 
-import link01 from './../assets/lightbox/hottubs/hottubs01.jpg'
-import link02 from './../assets/lightbox/hottubs/hottubs02.jpg'
-import link03 from './../assets/lightbox/hottubs/hottubs03.jpg'
-import link04 from './../assets/lightbox/hottubs/hottubs04.jpg'
-import link05 from './../assets/lightbox/hottubs/hottubs05.jpg'
-import link06 from './../assets/lightbox/hottubs/hottubs06.jpg'
-import link07 from './../assets/lightbox/hottubs/hottubs07.jpg'
-import link08 from './../assets/lightbox/hottubs/hottubs08.jpg'
-import link09 from './../assets/lightbox/hottubs/hottubs09.jpg'
-import link10 from './../assets/lightbox/hottubs/hottubs10.jpg'
+import link01 from './../assets/lightbox/rayen/rayen01.jpg'
+import link02 from './../assets/lightbox/rayen/rayen02.jpg'
+import link03 from './../assets/lightbox/rayen/rayen03.jpg'
+import link04 from './../assets/lightbox/rayen/rayen04.jpg'
+import link05 from './../assets/lightbox/rayen/rayen05.jpg'
+import link06 from './../assets/lightbox/rayen/rayen06.jpg'
+import link07 from './../assets/lightbox/rayen/rayen07.jpg'
+import link08 from './../assets/lightbox/rayen/rayen08.jpg'
 
 class PopUp extends React.Component {
   render () {
@@ -20,80 +18,68 @@ class PopUp extends React.Component {
         <div className='popup_inner-img'>
           <div className='text-up-info'>
             <div className='button-close-info-img' onClick={this.props.closePopup}>x</div>
-            <div className='info-lightbox'>
-              <h3>Hot tubs</h3>
-              <p>Nuestras cabañas cuentan con un Hot Tubs o Tinaja de Agua Caliente fabricada en madera de ciprés, con capacidad de hasta 6 personas, ubicada en un entorno de mucha vegetación con una espectacular vista al lago Lanalhue. Además de disfrutar del paisaje, las tinajas proveen de numerosos beneficios para la salud.</p>
-              <b>Se arrienda con reserva de al menos 24 hrs.</b>
+            <div className='info-lightbox-atractivos'>
+              <h3>Salto Rayen</h3>
+              <p>Ubicado a 9 km de Contulmo en la ruta que une Contulmo – Puren.</p>
+              <p>Para llegar a los saltos, con caídas de 17 y 22 metros, se debe caminar a través de un sendero, cruzar puentes y pasarelas de madera por alrededor de 1,5 kilómetros.</p>
+              <p>Además del atractivo de las caídas de agua es la exuberante vegetación nativa, donde destacan los helechos, musgos, arrayanes, canelos, avellanos, robles, copihues y muchas especies más.</p>
+              <p>También se pueden observar aves y fauna propia de la Cordillera de Nahuelbuta.</p>
             </div>
             <Carousel>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link01}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link02}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link03}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link04}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link05}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link06}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link07}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link08}
-                  alt='hot tubs'
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={link09}
-                  alt='hot tubs'
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className='d-block w-100'
-                  src={link10}
-                  alt='hot tubs'
+                  alt='salto rayen'
                 />
               </Carousel.Item>
             </Carousel>

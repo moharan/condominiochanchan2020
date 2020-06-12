@@ -18,11 +18,168 @@ import link07 from './assets/link/07atractivos.jpg'
 import link08 from './assets/link/08atractivos.jpg'
 import link09 from './assets/link/09atractivos.jpg'
 import link10 from './assets/link/10atractivos.jpg'
+/* lightbox */
+import PopUpMolino from './lightbox/PopUpMolino'
+import PopUpNahuelbuta from './lightbox/PopUpNahuelbuta'
+import PopUpContulmo from './lightbox/PopUpContulmo'
+import PopUpRayen from './lightbox/PopUpRayen'
+import PopUpTuneles from './lightbox/PopUpTuneles'
+import PopUpMuseoMapuche from './lightbox/PopUpMuseoMapuche'
+import PopUpCasasPatrimoniales from './lightbox/PopUpCasasPatrimoniales'
+import PopUpDungunwe from './lightbox/PopUpDungunwe'
+import PopUpLanalhue from './lightbox/PopUpLanalhue'
+import PopUpElena from './lightbox/PopUpElena'
 
 class SectionAtractivos extends React.Component {
+  constructor (props) {
+    super(props)
+    this.togglePopupMolino = this.togglePopupMolino.bind(this)
+    this.togglePopUpNahuelbuta = this.togglePopUpNahuelbuta.bind(this)
+    this.togglePopUpContulmo = this.togglePopUpContulmo.bind(this)
+    this.togglePopUpRayen = this.togglePopUpRayen.bind(this)
+    this.togglePopUpTuneles = this.togglePopUpTuneles.bind(this)
+    this.togglePopUpMuseoMapuche = this.togglePopUpMuseoMapuche.bind(this)
+    this.togglePopUpCasasPatrimoniales = this.togglePopUpCasasPatrimoniales.bind(this)
+    this.togglePopUpDungunwe = this.togglePopUpDungunwe.bind(this)
+    this.togglePopUpLanalhue = this.togglePopUpLanalhue.bind(this)
+    this.togglePopUpElena = this.togglePopUpElena.bind(this)
+    this.state = {
+      showPopupMolino: false,
+      showPopUpNahuelbuta: false,
+      showPopUpContulmo: false,
+      showPopUpRayen: false,
+      showPopUpTuneles: false,
+      showPopUpMuseoMapuche: false,
+      showPopUpCasasPatrimoniales: false,
+      showPopUpDungunwe: false,
+      showPopUpLanalhue: false,
+      showPopUpElena: false
+    }
+  }
+
+  togglePopupMolino () {
+    this.setState({
+      showPopupMolino: !this.state.showPopupMolino
+    })
+  }
+
+  togglePopUpNahuelbuta () {
+    this.setState({
+      showPopUpNahuelbuta: !this.state.showPopUpNahuelbuta
+    })
+  }
+
+  togglePopUpContulmo () {
+    this.setState({
+      showPopUpContulmo: !this.state.showPopUpContulmo
+    })
+  }
+
+  togglePopUpRayen () {
+    this.setState({
+      showPopUpRayen: !this.state.showPopUpRayen
+    })
+  }
+
+  togglePopUpTuneles () {
+    this.setState({
+      showPopUpTuneles: !this.state.showPopUpTuneles
+    })
+  }
+
+  togglePopUpMuseoMapuche () {
+    this.setState({
+      showPopUpMuseoMapuche: !this.state.showPopUpMuseoMapuche
+    })
+  }
+
+  togglePopUpCasasPatrimoniales () {
+    this.setState({
+      showPopUpCasasPatrimoniales: !this.state.showPopUpCasasPatrimoniales
+    })
+  }
+
+  togglePopUpDungunwe () {
+    this.setState({
+      showPopUpDungunwe: !this.state.showPopUpDungunwe
+    })
+  }
+
+  togglePopUpLanalhue () {
+    this.setState({
+      showPopUpLanalhue: !this.state.showPopUpLanalhue
+    })
+  }
+
+  togglePopUpElena () {
+    this.setState({
+      showPopUpElena: !this.state.showPopUpElena
+    })
+  }
   render () {
+    // pop-up information
+    const showPopupMolino = this.state.showPopupMolino
+    const showPopUpNahuelbuta = this.state.showPopUpNahuelbuta
+    const showPopUpContulmo = this.state.showPopUpContulmo
+    const showPopUpRayen = this.state.showPopUpRayen
+    const showPopUpTuneles = this.state.showPopUpTuneles
+    const showPopUpMuseoMapuche = this.state.showPopUpMuseoMapuche
+    const showPopUpCasasPatrimoniales = this.state.showPopUpCasasPatrimoniales
+    const showPopUpDungunwe = this.state.showPopUpDungunwe
+    const showPopUpLanalhue = this.state.showPopUpLanalhue
+    const showPopUpElena = this.state.showPopUpElena
+    let lightboxPopupMolino
+    let lightboxPopUpNahuelbuta
+    let lightboxPopUpContulmo
+    let lightboxPopUpRayen
+    let lightboxPopUpTuneles
+    let lightboxPopUpMuseoMapuche
+    let lightboxPopUpCasasPatrimoniales
+    let lightboxPopUpDungunwe
+    let lightboxPopUpLanalhue
+    let lightboxPopUpElena
+    if (showPopupMolino === true) {
+      lightboxPopupMolino = <PopUpMolino closePopup={this.togglePopupMolino} />
+    }
+    if (showPopUpNahuelbuta === true) {
+      lightboxPopUpNahuelbuta = <PopUpNahuelbuta closePopup={this.togglePopUpNahuelbuta} />
+    }
+    if (showPopUpContulmo === true) {
+      lightboxPopUpContulmo = <PopUpContulmo closePopup={this.togglePopUpContulmo} />
+    }
+    if (showPopUpRayen === true) {
+      lightboxPopUpRayen = <PopUpRayen closePopup={this.togglePopUpRayen} />
+    }
+    if (showPopUpTuneles === true) {
+      lightboxPopUpTuneles = <PopUpTuneles closePopup={this.togglePopUpTuneles} />
+    }
+    if (showPopUpMuseoMapuche === true) {
+      lightboxPopUpMuseoMapuche = <PopUpMuseoMapuche closePopup={this.togglePopUpMuseoMapuche} />
+    }
+    if (showPopUpCasasPatrimoniales === true) {
+      lightboxPopUpCasasPatrimoniales = <PopUpCasasPatrimoniales closePopup={this.togglePopUpCasasPatrimoniales} />
+    }
+    if (showPopUpDungunwe === true) {
+      lightboxPopUpDungunwe = <PopUpDungunwe closePopup={this.togglePopUpDungunwe} />
+    }
+    if (showPopUpLanalhue === true) {
+      lightboxPopUpLanalhue = <PopUpLanalhue closePopup={this.togglePopUpLanalhue} />
+    }
+    if (showPopUpElena === true) {
+      lightboxPopUpElena = <PopUpElena closePopup={this.togglePopUpElena} />
+    }
     return (
       <React.Fragment>
+        {lightboxPopupMolino}
+        {lightboxPopUpNahuelbuta}
+        {lightboxPopUpContulmo}
+        {lightboxPopUpRayen}
+        {lightboxPopUpTuneles}
+        {lightboxPopUpMuseoMapuche}
+        {lightboxPopUpCasasPatrimoniales}
+        {lightboxPopUpDungunwe}
+        {lightboxPopUpLanalhue}
+        {lightboxPopUpElena}
         <Carousel>
           <Carousel.Item>
             <img
@@ -71,16 +228,16 @@ class SectionAtractivos extends React.Component {
           <div className='distancias02'><img className='atractivo01' src={atractivos01} alt='atractivos01' /></div>
         </div>
         <div className='links'>
-          <div alt='molino-grollmus' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
-          <div alt='nahuelbuta' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
-          <div alt='monumento-contulmo' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
-          <div alt='salto-rayen' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
-          <div alt='tuneles' className='contain-link'><img src={link05} width='100%' height='100%' alt='' /></div>
-          <div alt='museo-mapuche' className='contain-link'><img src={link06} width='100%' height='100%' alt='' /></div>
-          <div alt='casas-patrimoniales' className='contain-link'><img src={link07} width='100%' height='100%' alt='' /></div>
-          <div alt='dungunwe' className='contain-link'><img src={link08} width='100%' height='100%' alt='' /></div>
-          <div alt='lago-lanalhue' className='contain-link'><img src={link09} width='100%' height='100%' alt='' /></div>
-          <div alt='santa-elena' className='contain-link'><img src={link10} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopupMolino} alt='molino-grollmus' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpNahuelbuta} alt='nahuelbuta' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpContulmo} alt='monumento-contulmo' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpRayen} alt='salto-rayen' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpTuneles} alt='tuneles' className='contain-link'><img src={link05} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpMuseoMapuche} alt='museo-mapuche' className='contain-link'><img src={link06} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpCasasPatrimoniales} alt='casas-patrimoniales' className='contain-link'><img src={link07} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpDungunwe} alt='dungunwe' className='contain-link'><img src={link08} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpLanalhue} alt='lago-lanalhue' className='contain-link'><img src={link09} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopUpElena} alt='santa-elena' className='contain-link'><img src={link10} width='100%' height='100%' alt='' /></div>
         </div>
       </React.Fragment>
     )
