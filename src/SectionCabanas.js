@@ -19,11 +19,32 @@ import mascotas from './assets/servicios/mascotas.png'
 import pago from './assets/servicios/pago.png'
 import sostenibles from './assets/servicios/sostenibles.png'
 import tienda from './assets/servicios/tienda.png'
+/* lightbox */
+import PopUpAvellano from './lightbox/PopUpAvellano'
 
 class SectionCabanas extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      showPopupAvellano: false
+    }
+  }
+
+  togglePopupAvellano () {
+    this.setState({
+      showPopupAvellano: !this.state.showPopupAvellano
+    })
+  }
   render () {
+    // pop-up information
+    const showPopupAvellano = this.state.showPopupAvellano
+    let lightboxAvellano
+    if (showPopupAvellano === true) {
+      lightboxAvellano = <PopUpAvellano closePopup={this.togglePopupAvellano.bind(this)} />
+    }
     return (
       <React.Fragment>
+        {lightboxAvellano}
         <Carousel>
           <Carousel.Item>
             <img
@@ -131,7 +152,7 @@ class SectionCabanas extends React.Component {
           </div>
         </div>
         <div className='links'>
-          <div alt='El Avellano' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
+          <div onClick={this.togglePopupAvellano.bind(this)} alt='El Avellano' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
           <div alt='Los Encinos' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
           <div alt='Los Cipreses' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
           <div alt='El Castaño' className='contain-link'><img src={link04} width='100%' height='100%' alt='' /></div>
