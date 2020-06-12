@@ -2,22 +2,22 @@ import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import './../App.css'
 
-import link01 from './../assets/lightbox/encinos/encinos01.jpg'
-import link02 from './../assets/lightbox/encinos/encinos02.jpg'
-import link03 from './../assets/lightbox/encinos/encinos03.jpg'
-import link04 from './../assets/lightbox/encinos/encinos04.jpg'
-import link05 from './../assets/lightbox/encinos/encinos05.jpg'
-import link06 from './../assets/lightbox/encinos/encinos06.jpg'
-import link07 from './../assets/lightbox/encinos/encinos07.jpg'
-import link08 from './../assets/lightbox/encinos/encinos08.jpg'
-import link09 from './../assets/lightbox/encinos/encinos09.jpg'
-import link10 from './../assets/lightbox/encinos/encinos10.jpg'
-import link11 from './../assets/lightbox/encinos/encinos11.jpg'
-import link12 from './../assets/lightbox/encinos/encinos12.jpg'
-import link13 from './../assets/lightbox/encinos/encinos13.jpg'
-import link14 from './../assets/lightbox/encinos/encinos14.jpg'
-import link15 from './../assets/lightbox/encinos/encinos15.jpg'
-
+import link01 from './../assets/lightbox/castano/castano01.jpg'
+import link02 from './../assets/lightbox/castano/castano02.jpg'
+import link03 from './../assets/lightbox/castano/castano03.jpg'
+import link04 from './../assets/lightbox/castano/castano04.jpg'
+import link05 from './../assets/lightbox/castano/castano05.jpg'
+import link06 from './../assets/lightbox/castano/castano06.jpg'
+import link07 from './../assets/lightbox/castano/castano07.jpg'
+import link08 from './../assets/lightbox/castano/castano08.jpg'
+import link09 from './../assets/lightbox/castano/castano09.jpg'
+import link10 from './../assets/lightbox/castano/castano10.jpg'
+import link11 from './../assets/lightbox/castano/castano11.jpg'
+import link12 from './../assets/lightbox/castano/castano12.jpg'
+import link13 from './../assets/lightbox/castano/castano13.jpg'
+import link14 from './../assets/lightbox/castano/castano14.jpg'
+import link15 from './../assets/lightbox/castano/castano15.jpg'
+import link16 from './../assets/lightbox/castano/castano16.jpg'
 
 class PopUp extends React.Component {
   render () {
@@ -27,22 +27,19 @@ class PopUp extends React.Component {
           <div className='text-up-info'>
             <div className='button-close-info-img' onClick={this.props.closePopup}>x</div>
             <div className='info-lightbox'>
-              <h3>Cabaña “Los Encinos”</h3>
-              <p>Cabaña de dos pisos para un máximo de 7(*) personas (a 100 metros del lago.</p>
+              <h3>Cabaña “El Castaño”</h3>
+              <p>Cabaña de un piso para un máximo de 5 - 6 (*) personas (a 50 metros del lago).</p>
               <ul> Equipada con:
-                <li>1 Dormitorio con cama de 2 plazas en primer piso</li>
-                <li>1 Baño (sin tina) en primer piso</li>
-                <li>1 Dormitorio con cama de 2 plazas en segundo piso</li>
-                <li>1 Baño (sin tina) en segundo piso</li>
-                <li>1 Dormitorio con una cama de 1 plaza y media y una cama de 1 plaza y media con cama nido</li>
-                <li>1 Dormitorio pequeño con una cama de 1 plaza y media</li>
+                <li>Un dormitorio con cama 2 plazas</li>
+                <li>Un dormitorio con una cama 1 plaza y media y una litera de 1 plaza para dos personas</li>
+                <li>Un baño (con tina)</li>
                 <li>Living - Comedor</li>
                 <li>Cocina completamente equipada</li>
                 <li>TV Satelital</li>
                 <li>Amplia terraza</li>
                 <li>Asadera</li>
-                <li>Estacionamiento para varios vehículos (2-3)</li>
                 <li>Calefacción a leña</li>
+                <li>Estacionamiento para 2 vehículos</li>
               </ul>
             </div>
             <Carousel>
@@ -50,105 +47,112 @@ class PopUp extends React.Component {
                 <img
                   className='d-block w-100'
                   src={link01}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link02}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link03}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link04}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link05}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link06}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link07}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link08}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link09}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link10}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link11}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link12}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link13}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link14}
-                  alt='encinos'
+                  alt='castaño'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
                   className='d-block w-100'
                   src={link15}
-                  alt='encinos'
+                  alt='castaño'
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className='d-block w-100'
+                  src={link16}
+                  alt='castaño'
                 />
               </Carousel.Item>
             </Carousel>
