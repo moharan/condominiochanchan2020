@@ -79,7 +79,7 @@ export default class App extends React.Component {
     const sectionActive = this.state.sectionActive
     let report
     if (sectionActive === 1) {
-      report = <SectionHome />
+      report = <SectionHome cabanas={this.handleSectionCabanas} atractivos={this.handleSectionAtractivos} />
     } else if (sectionActive === 2) {
       report = <SectionCabanas />
     } else if (sectionActive === 3) {
