@@ -119,7 +119,7 @@ class SectionHome extends React.Component {
             />
           </a>
           <div className='text-conditions'>
-            <p><b>Check in:</b> Desde las 15:00 hrs (Temporada Baja y Media) y 15:30 hrs (Temporada Alta)  hasta las 21:00 horas (avisar en caso de llegar posterior a este horario).</p>
+            <p><b>Check in:</b> Desde las 15:00 hrs (Temporada Baja y Media) y 16:00 hrs (Temporada Alta)  hasta las 21:00 horas (avisar en caso de llegar posterior a este horario).</p>
             <p><b>Check out:</b> Hasta las 12:00 horas. Late Check out tiene un costo adicional y previa autorización.</p>
             <p><b>Condiciones de Reserva:</b> Depósito, transferencia o pago con tarjetas bancarias a través de Webpay.cl del 50% de la estadía por dos o más noches y 100% por una noche.</p>
             <p><b>Condiciones de Pago:</b> Pago en efectivo, transferencia o tarjetas bancarias de débito/crédito durante el check-in.</p>
