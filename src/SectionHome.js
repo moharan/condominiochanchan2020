@@ -131,11 +131,11 @@ class SectionHome extends React.Component {
           <h5 className='solocolor02'>Lago Lanalhue, Contulmo, Región del Bio Bio</h5>
         </div>
         <div className='links'>
-          <div onClick={this.props.cabanas} alt='Cabañas' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
-          <div onClick={this.props.atractivos} alt='Atractivos Turisticos' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
+          <a onClick={this.props.cabanas} href='#cabanas' alt='Cabañas' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></a>
+          <a onClick={this.props.atractivos} href='#atractivos' alt='Atractivos Turisticos' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></a>
         </div>
         <div className='titulo-secciones03'>Mapa</div>
-        <div className='maps-div'>
+        <div id='maps' className='maps-div'>
           <Iframe iframe={maps} />
         </div>
         <div className='titulo-secciones04'>Distancia</div>

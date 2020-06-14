@@ -52,245 +52,245 @@ class PopUp extends React.Component {
             <Carousel>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link01}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link03}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link04}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link06}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link07}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link09}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link10}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link12}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link16}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link18}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link21}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link22}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link23}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link24}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link26}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link27}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link28}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link30}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link31}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link32}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link33}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link34}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link35}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link36}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link37}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link41}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link43}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link44}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link45}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link46}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link48}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link49}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link53}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link56}
                   alt='exterior cabañas'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link59}
                   alt='exterior cabañas'
                 />

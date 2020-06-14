@@ -227,7 +227,7 @@ class SectionCabanas extends React.Component {
             <p>- Venta Souvenirs Artesanía Local</p>
           </div>
         </div>
-        <div className='links'>
+        <div id='cabanas' className='links'>
           <div onClick={this.togglePopupAvellano} alt='El Avellano' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
           <div onClick={this.togglePopupEncinos} alt='Los Encinos' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
           <div onClick={this.togglePopupCipreses} alt='Los Cipreses' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>

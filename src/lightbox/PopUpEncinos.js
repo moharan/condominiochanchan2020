@@ -48,105 +48,105 @@ class PopUp extends React.Component {
             <Carousel>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link01}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link02}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link03}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link04}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link05}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link06}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link07}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link08}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link09}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link10}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link11}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link12}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link13}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link14}
                   alt='encinos'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link15}
                   alt='encinos'
                 />

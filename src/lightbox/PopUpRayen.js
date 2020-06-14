@@ -28,56 +28,56 @@ class PopUp extends React.Component {
             <Carousel>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link01}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link02}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link03}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link04}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link05}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link06}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link07}
                   alt='salto rayen'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link08}
                   alt='salto rayen'
                 />

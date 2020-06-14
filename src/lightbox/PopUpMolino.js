@@ -29,77 +29,77 @@ class PopUp extends React.Component {
             <Carousel>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link01}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link02}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link03}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link04}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link05}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link06}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link07}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link08}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link09}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link10}
                   alt='molino'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className='d-block w-100'
+                  className='d-block w-100w'
                   src={link11}
                   alt='molino'
                 />

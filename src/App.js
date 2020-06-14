@@ -24,6 +24,7 @@ class Info extends React.Component {
         <div className='popup_inner'>
           <div className='text-up-info'>
             <div className='button-close-info' onClick={this.props.closePopup}>x</div>
+            <img className='brand' alt='logotipo' src={logo} />
             <h5>Estimados Visitantes:</h5>
             <p>Informamos que nuestras cabañas se encuentran temporalmente cerradas desde mediados de marzo producto de las medidas sanitarias implementadas por las autoridades, así como una decisión de contribuir al control de la propagación del coronavirus.</p>
             <p>Esperamos que la difícil situación que enfrenta el país mejore para que en el menor tiempo posible puedas venir a disfrutar de nuestras instalaciones, del hermoso Lago Lanalhue y sus alrededores.</p>
@@ -33,7 +34,6 @@ class Info extends React.Component {
             <p>Saludos Cordiales</p>
             <p>Administración</p>
             <h6>Cabañas Condominio Chan Chan</h6>
-            <img className='brand' alt='logotipo' src={logo} />
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ export default class App extends React.Component {
               <Nav.Link href='http://condominiochanchan.com/reglamento2020-2021.pdf' target='_blank' rel='noopener noreferrer'>Descarga Reglamento</Nav.Link>
             </Nav>
             <Form inline>
-              <a onClick={this.handleSectionHome} className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
+              <a onClick={this.handleSectionHome} href='#maps' className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
               <a href='https://www.facebook.com/condominiochanchan/' target='blanck' className='iconos'><img
                 src={facebook} width='23' height='23' alt='facebook' /></a>
               <a href='https://www.instagram.com/condominiochanchan/' target='blanck' className='iconos'>
@@ -141,7 +141,7 @@ export default class App extends React.Component {
         <footer>
           <div>Promoción de Temporada 2020 - 2021 </div>
           <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'>contacto@condominiochanchan.com</a>
-          <div> +56 9 5400 5083</div>
+          <div> +56954005083</div>
           <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' className='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
         </footer>
       </div>

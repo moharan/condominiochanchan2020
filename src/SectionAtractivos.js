@@ -227,7 +227,7 @@ class SectionAtractivos extends React.Component {
           <div className='distancias02'><img className='atractivo02' src={atractivos02} alt='atractivos02' /></div>
           <div className='distancias02'><img className='atractivo01' src={atractivos01} alt='atractivos01' /></div>
         </div>
-        <div className='links'>
+        <div id='atractivos' className='links'>
           <div onClick={this.togglePopupMolino} alt='molino-grollmus' className='contain-link'><img src={link01} width='100%' height='100%' alt='' /></div>
           <div onClick={this.togglePopUpNahuelbuta} alt='nahuelbuta' className='contain-link'><img src={link02} width='100%' height='100%' alt='' /></div>
           <div onClick={this.togglePopUpContulmo} alt='monumento-contulmo' className='contain-link'><img src={link03} width='100%' height='100%' alt='' /></div>
