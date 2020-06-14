@@ -14,6 +14,7 @@ import SectionCabanas from './SectionCabanas'
 import SectionAtractivos from './SectionAtractivos'
 import SectionPromociones from './SectionPromociones'
 import SectionFaq from './SectionFaq'
+import SectionProtocolo from './SectionProtocolo'
 import './App.css'
 
 class Info extends React.Component {
@@ -48,6 +49,7 @@ export default class App extends React.Component {
     this.handleSectionAtractivos = this.handleSectionAtractivos.bind(this)
     this.handleSectionPromociones = this.handleSectionPromociones.bind(this)
     this.handleSectionFaq = this.handleSectionFaq.bind(this)
+    this.handleSectionProtocolo = this.handleSectionProtocolo.bind(this)
     this.state = {
       sectionActive: 1,
       showPopup: true
@@ -67,6 +69,9 @@ export default class App extends React.Component {
   }
   handleSectionFaq () {
     this.setState({ sectionActive: 5 })
+  }
+  handleSectionProtocolo () {
+    this.setState({ sectionActive: 6 })
   }
   togglePopup () {
     this.setState({
@@ -88,6 +93,8 @@ export default class App extends React.Component {
       report = <SectionPromociones />
     } else if (sectionActive === 5) {
       report = <SectionFaq />
+    } else if (sectionActive === 6) {
+      report = <SectionProtocolo />
     } else {
       console.log('nO DEBERIA nunca llegar aqui!!')
     }
@@ -114,10 +121,11 @@ export default class App extends React.Component {
               <Nav.Link onClick={this.handleSectionAtractivos}>Atractivos Turisticos</Nav.Link>
               <Nav.Link onClick={this.handleSectionPromociones}>Promociones</Nav.Link>
               <Nav.Link onClick={this.handleSectionFaq}>FAQ</Nav.Link>
-              <Nav.Link href='http://condominiochanchan.com/reglamento2020-21.pdf' target='_blank' rel='noopener noreferrer'>Descarga Reglamento</Nav.Link>
+              <Nav.Link onClick={this.handleSectionProtocolo}>Protocolo COVID-19</Nav.Link>
+              <Nav.Link href='http://condominiochanchan.com/reglamento2020-2021.pdf' target='_blank' rel='noopener noreferrer'>Descarga Reglamento</Nav.Link>
             </Nav>
             <Form inline>
-              <a href='#link' className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
+              <a onClick={this.handleSectionHome} className='iconos'><img src={ubicacion} width='23'height='23' alt='ubicacion' /></a>
               <a href='https://www.facebook.com/condominiochanchan/' target='blanck' className='iconos'><img
                 src={facebook} width='23' height='23' alt='facebook' /></a>
               <a href='https://www.instagram.com/condominiochanchan/' target='blanck' className='iconos'>

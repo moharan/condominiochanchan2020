@@ -45,6 +45,7 @@ body {
   background-color: var(--main-color);
   color: var(--third-color);
   border: none;
+  font-size: .7rem;
 }
 
 .extra-publicidad {
@@ -172,7 +173,7 @@ footer {
   cursor: pointer;
 }
 
-.lago-div, .faq-div {
+.lago-div, .faq-div, .protocolo-div {
   background-image: url(./assets/home-lago/2.jpg);
   background-size: cover;
   background-position: center;
@@ -183,6 +184,10 @@ footer {
 
 .faq-div {
   background-image: url(./assets/faq/faq.jpg);
+}
+
+.protocolo-div {
+  background-image: url(./assets/protocolo/protocolo.jpg);
 }
 
 
@@ -243,7 +248,7 @@ footer {
   text-shadow: 1px 1px var(--second-color);
 }
 
-.faq-section {
+.faq-section, .faq-protocolo {
   width: 100%;
   height: auto;
   font-size: 18px;
@@ -252,6 +257,11 @@ footer {
   background: var(--fourteen-color);
   color: var(--second-color);
   padding: 5vh 10vw;
+}
+
+.faq-protocolo {
+  background: var(--tenth-color);
+  color: var(--seventh-color);
 }
 
 /* section Cabañas */
@@ -273,9 +283,13 @@ footer {
   padding: 15px 2%;
 }
 
-.contenedor-faq {
+.contenedor-faq, .contenedor-protocolo {
   width: 50%;
   margin: 15px 0;
+}
+
+.contenedor-protocolo {
+  text-align: left;
 }
 
 .titulo-servicios {
@@ -438,12 +452,12 @@ footer {
     width: fit-content;
   }
 
-  .faq-section {
+  .faq-section, .faq-protocolo {
     font-size: 14px;
     display: block;
   }
 
-  .contenedor-faq {
+  .contenedor-faq, .contenedor-protocolo {
     width: 100%;
     margin: 15px 0;
   }
