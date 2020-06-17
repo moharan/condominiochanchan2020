@@ -26,8 +26,7 @@ Promociones no tienen devolución de reserva.</p>
           </div>
           <div className='contenedor-protocolo'>
             <b>Registro Llegada (Check In)</b>
-            <p>1. Los turistas (mayores de 18 años) deberán llenar una declaración de salud (descargar
-aquí) por medio de un cuestionario, la que deberá ser entregada a su llegada.</p>
+            <p>1. Los turistas (mayores de 18 años) deberán llenar una declaración de salud <a className='link-protocolo' href='http://condominiochanchan.com/DeclaracionJuradaSalud.pdf' target='_blank' rel='noopener noreferrer'>(Descarga Aquí)</a> por medio de un cuestionario, la que deberá ser entregada a su llegada.</p>
             <p>2. Se medirá la temperatura de los turistas con termómetro infrarrojo y/o revisión visual
 de su estado de salud.</p>
             <p>3. Solo la persona que realizó la reserva deberá firmar el registro y hacer el pago del

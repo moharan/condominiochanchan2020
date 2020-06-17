@@ -194,6 +194,15 @@ footer {
   background-image: url(./assets/protocolo/protocolo.jpg);
 }
 
+.link-protocolo {
+  color: var(--sixth-color); 
+  text-decoration: none;
+}
+
+.link-protocolo:hover {
+  color: var(--second-color); 
+  text-decoration: none;
+}
 
 
 .distancias-div {

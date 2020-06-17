@@ -178,10 +178,6 @@ class SectionCabanas extends React.Component {
             <p className='titulo-servicios'>Actividades</p>
             <p>- Arriendo Hot Tubs (Tinaja agua caliente)</p>
             <p>- Arriendo Kayaks</p>
-            <p>- Playa</p>
-            <p>- Jardines</p>
-            <p>- Fogón</p>
-            <p>- Zona Juegos</p>
           </div>
           <div className='contenedor-servicios'>
             <img src={cabanas} alt='cabanas' />
@@ -215,7 +211,7 @@ class SectionCabanas extends React.Component {
           </div>
           <div className='contenedor-servicios'>
             <img src={pago} alt='medios de pago' />
-            <p className='titulo-servicios'>Mascotas</p>
+            <p className='titulo-servicios'>Medios de Pago</p>
             <p>- Efectivo (moneda local)</p>
             <p>- Tarjetas Bancarias (débito/crédito)</p>
             <p>- Webpay</p>
