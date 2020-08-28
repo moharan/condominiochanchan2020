@@ -52,7 +52,7 @@ export default class App extends React.Component {
     this.handleSectionProtocolo = this.handleSectionProtocolo.bind(this)
     this.state = {
       sectionActive: 1,
-      showPopup: true
+      showPopup: false
     }
   }
   handleSectionHome () {
@@ -134,9 +134,9 @@ export default class App extends React.Component {
             </Form>
           </Navbar.Collapse>
         </Navbar>
-        <div className='extra-publicidad' onClick={this.togglePopup.bind(this)}>
+        {/* <div className='extra-publicidad' onClick={this.togglePopup.bind(this)}>
           <p className='contact-email-publicidad'> Producto del [COVID-19] nuestras cabañas se encuentran temporalmente cerradas + Info: contacto@condominiochanchan.com</p>
-        </div>
+        </div> */}
         {report}
         <footer>
           <div>Promoción de Temporada 2020 - 2021 </div>
