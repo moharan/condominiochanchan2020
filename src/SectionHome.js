@@ -69,36 +69,36 @@ class SectionHome extends React.Component {
           <div className='price-block'>
             <div className='price-title'>Nombre</div>
             <div className='price-title'>Capacidad Máxima</div>
-            <div className='price-title active'>Baja</div>
-            <div className='price-title disabled'>Media</div>
+            <div className='price-title disabled'>Baja</div>
+            <div className='price-title active'>Media</div>
             <div className='price-title disabled'>Alta</div>
           </div>
           <div className='price-block'>
             <div className='price-element'>El Castaño</div>
             <div className='price-element'>5 *</div>
-            <div className='price-element active'>$ 60.000</div>
-            <div className='price-element disabled'>$ 75.000</div>
+            <div className='price-element disabled'>$ 60.000</div>
+            <div className='price-element active'>$ 75.000</div>
             <div className='price-element disabled'>$ 95.000</div>
           </div>
           <div className='price-block'>
             <div className='price-element'>Los Encinos</div>
             <div className='price-element'>7 *</div>
-            <div className='price-element active'>$ 75.000</div>
-            <div className='price-element disabled'>$ 90.000</div>
+            <div className='price-element disabled'>$ 75.000</div>
+            <div className='price-element active'>$ 90.000</div>
             <div className='price-element disabled'>$ 110.000</div>
           </div>
           <div className='price-block'>
             <div className='price-element'>Los Cipreses</div>
             <div className='price-element'>8</div>
-            <div className='price-element active'>$ 85.000</div>
-            <div className='price-element disabled'>$ 100.000</div>
+            <div className='price-element disabled'>$ 85.000</div>
+            <div className='price-element active'>$ 100.000</div>
             <div className='price-element disabled'>$ 120.000</div>
           </div>
           <div className='price-block'>
             <div className='price-element'>El Avellano</div>
             <div className='price-element'>9</div>
-            <div className='price-element active last-active'>$ 90.000</div>
-            <div className='price-element disabled'>$ 110.000</div>
+            <div className='price-element disabled'>$ 90.000</div>
+            <div className='price-element active last-active'>$ 110.000</div>
             <div className='price-element disabled'>$ 130.000</div>
           </div>
           <div className='text-conditions'>

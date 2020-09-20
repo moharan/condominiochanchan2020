@@ -8,6 +8,7 @@ import fixedCallMobile from './assets/img/llamadas_small.png'
 import ubicacion from './assets/img/ubicacion.png'
 import facebook from './assets/img/facebook.png'
 import instagram from './assets/img/instagram.png'
+import confianza from './assets/confianza-turistica.png'
 import whatsapp from './assets/img/whatsapp.png'
 import SectionHome from './SectionHome'
 import SectionCabanas from './SectionCabanas'
@@ -139,6 +140,7 @@ export default class App extends React.Component {
         </div> */}
         {report}
         <footer>
+          <img src={confianza} className='turistica-image' alt='confianza' />
           <div>Promoción de Temporada 2020 - 2021 </div>
           <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'>contacto@condominiochanchan.com</a>
           <div> +56954005083</div>
