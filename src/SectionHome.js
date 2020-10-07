@@ -123,7 +123,7 @@ class SectionHome extends React.Component {
             <p><b>Check out:</b> Hasta las 12:00 horas. Late Check out tiene un costo adicional y previa autorización.</p>
             <p><b>Condiciones de Reserva:</b> Depósito, transferencia o pago con tarjetas bancarias a través de Webpay.cl del 50% de la estadía por dos o más noches y 100% por una noche.</p>
             <p><b>Condiciones de Pago:</b> Pago en efectivo, transferencia o tarjetas bancarias de débito/crédito durante el check-in.</p>
-            <p><b>Política de Cancelación:</b> Entre 30 y 10 días antes de la llegada tiene una penalidad del 50% de la reserva y menos de 9 días el 100% de la reserva. Promociones no tienen devolución de reserva.</p>
+            <p><b>Política de Cancelación:</b> Antes de 30 días de la llegada devolución 100% de la reserva. Entre 30 y 10 días antes de la llegada tiene una penalidad del 50% de la reserva y menos de 9 días el 100% de la reserva.</p>
           </div>
         </div>
         <div className='lago-div'>

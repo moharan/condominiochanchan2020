@@ -65,6 +65,10 @@ body {
   cursor: pointer;
 }
 
+.button {
+  cursor: pointer;
+}
+
 .fixed-button-desktop {
   display: block;
   width: 127px;

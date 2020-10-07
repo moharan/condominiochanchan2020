@@ -21,8 +21,7 @@ class SectionFaq extends React.Component {
             <p>Número de acompañantes niños</p>
             <p>2.- En caso de no poder asistir por algún motivo relacionado al Covid-19 u otro, las
 políticas de cancelación son las siguientes: entre 30 y 10 días antes de la llegada tiene
-una penalidad del 50% de la reserva y menos de 9 días el 100% de la reserva.
-Promociones no tienen devolución de reserva.</p>
+una penalidad del 50% de la reserva y menos de 9 días el 100% de la reserva.</p>
           </div>
           <div className='contenedor-protocolo'>
             <b>Registro Llegada (Check In)</b>

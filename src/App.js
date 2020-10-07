@@ -9,6 +9,7 @@ import ubicacion from './assets/img/ubicacion.png'
 import facebook from './assets/img/facebook.png'
 import instagram from './assets/img/instagram.png'
 import confianza from './assets/confianza-turistica.png'
+import turistico from './assets/servicio-turistico.png'
 import whatsapp from './assets/img/whatsapp.png'
 import SectionHome from './SectionHome'
 import SectionCabanas from './SectionCabanas'
@@ -135,13 +136,14 @@ export default class App extends React.Component {
             </Form>
           </Navbar.Collapse>
         </Navbar>
-        {/* <div className='extra-publicidad' onClick={this.togglePopup.bind(this)}>
-          <p className='contact-email-publicidad'> Producto del [COVID-19] nuestras cabañas se encuentran temporalmente cerradas + Info: contacto@condominiochanchan.com</p>
-        </div> */}
+        <div className='extra-publicidad' onClick={this.handleSectionPromociones}>
+          <p className='contact-email-publicidad'> Revisa Nuestras PROMOCIONES + Info: contacto@condominiochanchan.com</p>
+        </div>
         {report}
         <footer>
           <img src={confianza} className='turistica-image' alt='confianza' />
-          <div>Promoción de Temporada 2020 - 2021 </div>
+          <img src={turistico} className='turistica-image' alt='turistico' />
+          <div className='button' onClick={this.handleSectionPromociones} >Promoción de Temporada 2020 - 2021 </div>
           <a href='mailto:contacto@condominiochanchan.com?subject=Consulta%20CondominioChanChan&body=Hola%20me%20gustaria%20tener%20información,' className='contact-email'>contacto@condominiochanchan.com</a>
           <div> +56954005083</div>
           <a href='https://api.whatsapp.com/send?phone=56954005083&text=Hola,%20Me%20Gustaría%20tener%20información%20de%20Condominio%20Chan%20Chan' className='iconos'><img src={whatsapp} width='23'height='23' alt='whatsapp' /></a>
